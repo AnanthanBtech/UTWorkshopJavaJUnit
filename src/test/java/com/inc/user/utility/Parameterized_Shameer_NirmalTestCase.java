@@ -11,11 +11,11 @@ import java.util.Collection;
 import static java.util.Arrays.asList;
 
 @RunWith(Parameterized.class)
-public class Parameterized_Shameer_Nirmal {
+public class Parameterized_Shameer_NirmalTestCase {
     private int leapYear;
     private boolean result;
 
-    public Parameterized_Shameer_Nirmal(int leapYear, boolean result) {
+    public Parameterized_Shameer_NirmalTestCase(int leapYear, boolean result) {
         super();
         this.leapYear=leapYear;
         this.result=result;

@@ -11,7 +11,7 @@ import org.junit.Test;
  * @author Ananthan
  *
  */
-public class Shailendra_Singh {
+public class Shailendra_TestCase {
 
 	@Test
 	public void leapTestShouldNotPassBy2049() {
