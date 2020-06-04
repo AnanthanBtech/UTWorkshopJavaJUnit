@@ -1,8 +1,6 @@
 package com.inc.user.utility;
 /**
- * 
  * @author Ananthan
- *
  */
 public class Calculator {
 	//no-arg constructor

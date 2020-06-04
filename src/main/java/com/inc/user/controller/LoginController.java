@@ -16,12 +16,10 @@ public class LoginController {
 		model.addAttribute("name", "Home Page");
 		model.addAttribute("description", "unsecured page !");
 		return "home";
-
 	}
 
 	@RequestMapping("/admin")
 	public String admin(Model model, Principal principal) {
-
 		String loggedInUserName = principal.getName();
 		model.addAttribute("user", loggedInUserName);
 		model.addAttribute("name", "Spring Security Custom Login Demo");
@@ -31,17 +29,13 @@ public class LoginController {
 
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login(ModelMap model) {
-
 		return "login";
-
 	}
 
 	@RequestMapping(value = "/logout", method = RequestMethod.GET)
 	public String logout(ModelMap model) {
-
 		model.addAttribute("message", "You have successfully logged off from application !");
 		return "logout";
-
 	}
 
 	@RequestMapping(value = "/loginError", method = RequestMethod.GET)
