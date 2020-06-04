@@ -23,4 +23,4 @@ Visit Maven official website, download the Maven zip file, for example : apache-
 
 ## Run the test cases
 
-mvn clean test OR mvn jacoco:prepare-agent test jacoco:report
+mvn clean test (OR) mvn jacoco:prepare-agent test jacoco:report
