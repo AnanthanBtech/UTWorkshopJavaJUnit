@@ -4,12 +4,10 @@
 ## Requirements
 
 
-Java 8/11
-
+Java 8
 Apache-maven-3.6.1
-
-Junit
-
+Junit 5.6.2
+Jacoco 0.8.5
 
 
 ## Following setup required to start it.
