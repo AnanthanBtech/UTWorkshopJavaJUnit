@@ -19,5 +19,11 @@ public class LeapYearTestCase {
 		boolean result = LeapYear.checkYear(2000);
 		assertEquals(msg, true, result);
 	}
-
+	
+	@Test
+	public void leapTestPassBy2010() {
+		String msg = "Year 2010 should not be a leap year.";
+		boolean result = LeapYear.checkYear(2000);
+		assertEquals(msg, true, result);
+	}
 }
